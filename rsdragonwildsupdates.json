@@ -5,7 +5,6 @@
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "4019830",
         "UpdateSourceArgs": "1374490",
-        "UpdateSourceVersion": "public",
         "SkipOnFailure": false
     },
     {
@@ -19,7 +18,7 @@
         "UpdateStageName": "Create Config Directory",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "CreateDirectory",
-        "UpdateSourceArgs": "{{$FullBaseDir}}RSDragonwilds/Saved/Config/Linux",
+        "UpdateSourceArgs": "{{$FullBaseDir}}RSDragonwilds/Saved/Config/LinuxServer",
         "SkipOnFailure": true
     }
 ]
