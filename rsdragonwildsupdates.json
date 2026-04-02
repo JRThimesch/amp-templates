@@ -12,19 +12,5 @@
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "4019830",
         "SkipOnFailure": false
-    },
-    {
-        "UpdateStageName": "Create Config Directory",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "CreateDirectory",
-        "UpdateSourceArgs": "{{$FullBaseDir}}RSDragonwilds/Saved/Config/WindowsServer",
-        "SkipOnFailure": true
-    },
-    {
-        "UpdateStageName": "Create Config Directory",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "CreateDirectory",
-        "UpdateSourceArgs": "{{$FullBaseDir}}RSDragonwilds/Saved/Config/LinuxServer",
-        "SkipOnFailure": true
     }
 ]
