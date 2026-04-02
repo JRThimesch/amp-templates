@@ -1,0 +1,16 @@
+[
+    {
+        "ConfigFile": "RSDragonwilds/Saved/Config/WindowsServer/DedicatedServer.ini",
+        "AutoMap": true,
+        "ConfigType": "ini",
+        "ConfigFormat": "{0}={1}",
+        "ConfigFormatRegex": "^(?<key>.+?)\\s*=\\s*(?<value>.*?)$"
+    },
+    {
+        "ConfigFile": "RSDragonwilds/Saved/Config/Linux/DedicatedServer.ini",
+        "AutoMap": true,
+        "ConfigType": "ini",
+        "ConfigFormat": "{0}={1}",
+        "ConfigFormatRegex": "^(?<key>.+?)\\s*=\\s*(?<value>.*?)$"
+    }
+]

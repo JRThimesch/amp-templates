@@ -1,0 +1,62 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "RS Dragonwilds:stadia_controller",
+        "Subcategory": "Server Settings:dns:1",
+        "Description": "Name displayed in the server browser. Players search for this exact name (case-sensitive) to find the server.",
+        "Keywords": "server,name",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "ParamFieldName": "ServerName",
+        "DefaultValue": "AMP Powered Dragonwilds Server",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Default World Name",
+        "Category": "RS Dragonwilds:stadia_controller",
+        "Subcategory": "Server Settings:dns:1",
+        "Description": "Name assigned to the default world on startup",
+        "Keywords": "world,name,default",
+        "FieldName": "DefaultWorldName",
+        "InputType": "text",
+        "ParamFieldName": "DefaultWorldName",
+        "DefaultValue": "Default",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Owner ID",
+        "Category": "RS Dragonwilds:stadia_controller",
+        "Subcategory": "Server Settings:dns:1",
+        "Description": "Player ID of the server owner. Found in the in-game Settings menu (bottom-left).",
+        "Keywords": "owner,id,player",
+        "FieldName": "OwnerID",
+        "InputType": "text",
+        "ParamFieldName": "OwnerID",
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Admin Password",
+        "Category": "RS Dragonwilds:stadia_controller",
+        "Subcategory": "Server Settings:dns:1",
+        "Description": "Password for accessing the Server Management tab in-game",
+        "Keywords": "admin,password",
+        "FieldName": "AdminPassword",
+        "InputType": "password",
+        "ParamFieldName": "AdminPassword",
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "World Password",
+        "Category": "RS Dragonwilds:stadia_controller",
+        "Subcategory": "Server Settings:dns:1",
+        "Description": "Password required to join the server. Leave empty for open access. Overrides any world-stored passwords.",
+        "Keywords": "world,password,join",
+        "FieldName": "WorldPassword",
+        "InputType": "password",
+        "ParamFieldName": "WorldPassword",
+        "DefaultValue": "",
+        "EnumValues": {}
+    }
+]

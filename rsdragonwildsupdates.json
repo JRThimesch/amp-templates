@@ -1,0 +1,25 @@
+[
+    {
+        "UpdateStageName": "SteamCMD Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "4019830",
+        "UpdateSourceArgs": "1374490",
+        "UpdateSourceVersion": "public",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Create Config Directory",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}RSDragonwilds/Saved/Config/WindowsServer",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Create Config Directory",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}RSDragonwilds/Saved/Config/Linux",
+        "SkipOnFailure": true
+    }
+]
