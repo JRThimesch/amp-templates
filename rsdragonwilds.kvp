@@ -41,11 +41,12 @@ App.AppSettings={}
 App.EnvironmentVariables={"SteamAppId":"1374490"}
 App.CommandLineParameterFormat=-{0}={1}
 App.CommandLineParameterDelimiter=
-App.ExitMethod=OS_CLOSE
+App.ExitMethod=String|OS_CLOSE|SIGKILL
 App.ExitTimeout=30
 App.ExitString=quit
 App.ExitFile=app_exit.lck
-App.HasWriteableConsole=False
+App.HasWriteableConsole=True
+App.DumpFullChildProcessTree=True
 App.HasReadableConsole=True
 App.UDPLogger=False
 App.SupportsLiveSettingsChanges=False
