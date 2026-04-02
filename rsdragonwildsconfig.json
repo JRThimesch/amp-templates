@@ -31,7 +31,7 @@
         "Keywords": "owner,id,player",
         "FieldName": "OwnerID",
         "InputType": "text",
-        "ParamFieldName": "OwnerID",
+        "ParamFieldName": "OwnerId",
         "DefaultValue": "",
         "EnumValues": {}
     },

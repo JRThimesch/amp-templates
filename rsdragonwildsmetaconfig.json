@@ -4,13 +4,37 @@
         "AutoMap": true,
         "ConfigType": "ini",
         "ConfigFormat": "{0}={1}",
-        "ConfigFormatRegex": "^(?<key>.+?)\\s*=\\s*(?<value>.*?)$"
+        "ConfigFormatRegex": "^(?<key>.+?)\\s*=\\s*(?<value>.*?)$",
+        "Subsections": [
+            {
+                "Heading": "/Script/Dominion.DedicatedServerSettings",
+                "SettingMappings": {
+                    "OwnerId=": "OwnerID",
+                    "ServerName=": "ServerName",
+                    "DefaultWorldName=": "DefaultWorldName",
+                    "AdminPassword=": "AdminPassword",
+                    "WorldPassword=": "WorldPassword"
+                }
+            }
+        ]
     },
     {
-        "ConfigFile": "RSDragonwilds/Saved/Config/Linux/DedicatedServer.ini",
+        "ConfigFile": "RSDragonwilds/Saved/Config/LinuxServer/DedicatedServer.ini",
         "AutoMap": true,
         "ConfigType": "ini",
         "ConfigFormat": "{0}={1}",
-        "ConfigFormatRegex": "^(?<key>.+?)\\s*=\\s*(?<value>.*?)$"
+        "ConfigFormatRegex": "^(?<key>.+?)\\s*=\\s*(?<value>.*?)$",
+        "Subsections": [
+            {
+                "Heading": "/Script/Dominion.DedicatedServerSettings",
+                "SettingMappings": {
+                    "OwnerId=": "OwnerID",
+                    "ServerName=": "ServerName",
+                    "DefaultWorldName=": "DefaultWorldName",
+                    "AdminPassword=": "AdminPassword",
+                    "WorldPassword=": "WorldPassword"
+                }
+            }
+        ]
     }
 ]
